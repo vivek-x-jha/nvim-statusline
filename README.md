@@ -15,7 +15,7 @@ nvim-statusline/
 
 ## Install (Neovim 0.12+ vim.pack)
 ```lua
-vim.pack.add({ url = 'https://github.com/<you>/nvim-statusline' })
+vim.pack.add({ url = 'https://github.com/vivek-x-jha/nvim-statusline' })
 ```
 
 ## Setup/Usage
