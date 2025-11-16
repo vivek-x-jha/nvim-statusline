@@ -87,7 +87,7 @@ local modules = {
 
   lsp = function()
     for _, client in ipairs(vim.lsp.get_clients()) do
-      if client.attached_buffers[stbufnr()] then return table.concat { '%#St_lsp#', icons.gear, ' ', client.name, ' ', '%#Normal#%*' } end
+      if client.attached_buffers[stbufnr()] then return table.concat { '%#St_lsp#', icons.lightbulb, ' ', client.name, ' ', '%#Normal#%*' } end
     end
 
     return ''
